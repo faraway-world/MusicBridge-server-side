@@ -59,3 +59,5 @@ Artist: Nujabes
 Tested with YouTube Music on Android.
 Works only while Discord desktop app is running.
 If using linux, use .deb version or the version from the AUR if Arch. Don't use Flatpak
+
+### This requires a companion Android app (not included in this repo)
