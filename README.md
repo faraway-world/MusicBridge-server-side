@@ -20,8 +20,8 @@ A simple bridge that sends music info from your **Android phone** (via a compani
 
 ### Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/musicbridge-discord-rpc.git
-cd musicbridge-discord-rpc
+git clone https://github.com/faraway-world/musicbridge-server-side.git
+cd musicbridge-server-side
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -56,8 +56,9 @@ Song: Luv(sic)
 Artist: Nujabes
 
 ### Notes
-Tested with YouTube Music on Android.
+Tested with YouTube Music(ReVanced) on Android.
 Works only while Discord desktop app is running.
-If using linux, use .deb version or the version from the AUR if Arch. Don't use Flatpak
+If using linux, use .deb version or the version from the AUR if Arch. Don't use Flatpak or snap because of IPC restrictions.
 
 ### This requires a companion Android app (not included in this repo)
+For the android side app [MusicBridge Anroid App](https://github.com/faraway-world/MusicBridge)
